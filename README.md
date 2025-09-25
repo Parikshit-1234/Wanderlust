@@ -1,1 +1,1 @@
-site_link - https://wanderlust-8k4a.onrender.com
+site_link - https://wanderlust-8k4a.onrender.com/listings
