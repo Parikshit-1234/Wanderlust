@@ -112,7 +112,34 @@ body{
 }
 
 
-#map{
+/* #map{
    height: 400px;
    width: 80vh;
-}
+} */
+
+#map {
+    height: 400px;
+    width: 80%;         /* keep it proportionate */
+ }
+ 
+ /* Medium screens (tablets) */
+ @media (max-width: 992px) {
+    #map {
+       height: 320px;
+       width: 90%;
+       max-width: 300px;
+    }
+ }
+ 
+ /* Small screens (mobiles) */
+ @media (max-width: 576px) {
+    #map {
+       height: 250px;
+       width: 90%;
+       max-width: 280px;  /* close to image size */
+    }
+ }
+
+
+
+
