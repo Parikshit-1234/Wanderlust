@@ -195,3 +195,10 @@
     -webkit-transition: background-position .7s;
     transition: background-position .7s;
   }
+
+@media (max-width: 576px) {
+  .starability-result {
+    transform: scale(0.8);   /* shrink stars to 80% */
+    transform-origin: left;  /* keep aligned to username */
+  }
+}
